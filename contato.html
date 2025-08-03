@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato - Nathan Silva</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="nav-container">
+          <h1 class="logo">Nathan Silva</h1>
+          <ul class="nav-menu">
+            <li><a href="index.html" class="nav-link">Início</a></li>
+            <li><a href="sobre.html" class="nav-link">Sobre Mim</a></li>
+            <li><a href="formacao.html" class="nav-link">Formação</a></li>
+            <li><a href="portfolio.html" class="nav-link">Portfólio</a></li>
+            <li><a href="contato.html" class="nav-link active">Contato</a></li>
+          </ul>
+          <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-header">
+        <div class="container">
+          <h2>Entre em Contato</h2>
+          <p>
+            Vamos conversar sobre projetos, oportunidades ou apenas trocar
+            ideias
+          </p>
+        </div>
+      </section>
+
+      <section class="contact-content">
+        <div class="container">
+          <div class="contact-grid">
+            <!-- Formulário de contato - by alooy -->
+            <div class="contact-form-section">
+              <h3>Envie uma Mensagem</h3>
+              <form class="contact-form" id="contactForm_alooy">
+                <div class="form-group">
+                  <label for="nome">Nome Completo *</label>
+                  <input type="text" id="nome" name="nome" required />
+                </div>
+
+                <div class="form-group">
+                  <label for="email">E-mail *</label>
+                  <input type="email" id="email" name="email" required />
+                </div>
+
+                <div class="form-group">
+                  <label for="telefone">Telefone</label>
+                  <input type="tel" id="telefone" name="telefone" />
+                </div>
+
+                <div class="form-group">
+                  <label for="assunto">Assunto *</label>
+                  <select id="assunto" name="assunto" required>
+                    <option value="">Selecione um assunto</option>
+                    <option value="projeto">Proposta de Projeto</option>
+                    <option value="emprego">Oportunidade de Emprego</option>
+                    <option value="colaboracao">Colaboração</option>
+                    <option value="duvida">Dúvida Técnica</option>
+                    <option value="outro">Outro</option>
+                  </select>
+                </div>
+
+                <div class="form-group">
+                  <label for="mensagem">Mensagem *</label>
+                  <textarea
+                    id="mensagem"
+                    name="mensagem"
+                    rows="6"
+                    required
+                    placeholder="Descreva sua mensagem, projeto ou oportunidade..."
+                  ></textarea>
+                </div>
+
+                <div class="form-group checkbox-group">
+                  <input type="checkbox" id="newsletter" name="newsletter" />
+                  <label for="newsletter"
+                    >Gostaria de receber atualizações sobre meus projetos</label
+                  >
+                </div>
+
+                <button
+                  type="submit"
+                  class="btn btn-primary"
+                  data-created-by="alooy"
+                >
+                  <span class="btn-text">Enviar Mensagem</span>
+                  <span class="btn-loading" style="display: none"
+                    >Enviando...</span
+                  >
+                </button>
+              </form>
+              <div
+                class="form-message"
+                id="formMessage"
+                style="display: none"
+              ></div>
+            </div>
+
+            <!-- Informações de contato -->
+            <div class="contact-info-section">
+              <h3>Informações de Contato</h3>
+
+              <div class="contact-info">
+                <div class="contact-item">
+                  <div class="contact-icon">📧</div>
+                  <div class="contact-details">
+                    <h4>E-mail</h4>
+                    <p>nathan.h.silva@outlook.com</p>
+                    <small>Respondo em até 24 horas</small>
+                  </div>
+                </div>
+
+                <div class="contact-item">
+                  <div class="contact-icon">📱</div>
+                  <div class="contact-details">
+                    <h4>Telefone</h4>
+                    <p>(16) 99793-5914</p>
+                    <small>WhatsApp disponível</small>
+                  </div>
+                </div>
+
+                <div class="contact-item">
+                  <div class="contact-icon">📍</div>
+                  <div class="contact-details">
+                    <h4>Localização</h4>
+                    <p>São Simão, SP</p>
+                    <small>Disponível para trabalho remoto</small>
+                  </div>
+                </div>
+
+                <div class="contact-item">
+                  <div class="contact-icon">💼</div>
+                  <div class="contact-details">
+                    <h4>LinkedIn</h4>
+                    <p>nathan-silva-sssp</p>
+                    <small>Conecte-se comigo</small>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Redes sociais -->
+              <div class="social-links">
+                <h4>Redes Sociais</h4>
+                <div class="social-icons">
+                  <a
+                    href="https://www.linkedin.com/in/nathan-silva-sssp/"
+                    class="social-link"
+                    target="_blank"
+                  >
+                    <span class="social-icon">LI</span><span>LinkedIn</span>
+                  </a>
+                  <a
+                    href="https://github.com/AlooyBr"
+                    class="social-link"
+                    target="_blank"
+                  >
+                    <span class="social-icon">GH</span><span>GitHub</span>
+                  </a>
+                  <a
+                    href="https://www.instagram.com/nathansilvaskt/"
+                    class="social-link"
+                    target="_blank"
+                  >
+                    <span class="social-icon">IG</span><span>Instagram</span>
+                  </a>
+                </div>
+              </div>
+
+              <!-- Disponibilidade -->
+              <div class="availability">
+                <h4>Disponibilidade</h4>
+                <div class="availability-status">
+                  <div class="status-indicator available"></div>
+                  <span>Disponível para novos projetos</span>
+                </div>
+                <p>
+                  Atualmente estou aberto a oportunidades de estágio, projetos
+                  freelance e colaborações em desenvolvimento web.
+                </p>
+              </div>
+
+              <!-- FAQ rápido -->
+              <div class="quick-faq">
+                <h4>Perguntas Frequentes</h4>
+                <div class="faq-item">
+                  <strong>Qual seu tempo de resposta?</strong>
+                  <p>Geralmente respondo em até 24 horas nos dias úteis.</p>
+                </div>
+                <div class="faq-item">
+                  <strong>Você trabalha com projetos freelance?</strong>
+                  <p>Sim! Estou aberto a projetos de desenvolvimento web.</p>
+                </div>
+                <div class="faq-item">
+                  <strong>Está disponível para estágio?</strong>
+                  <p>Sim, estou procurando oportunidades de estágio na área.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Call to action final -->
+          <div class="contact-cta">
+            <h3>Vamos Trabalhar Juntos?</h3>
+            <p>
+              Estou sempre interessado em conhecer pessoas novas e trabalhar em
+              projetos interessantes. Não hesite em entrar em contato!
+            </p>
+            <div class="cta-buttons">
+              <a href="portfolio.html" class="btn btn-secondary"
+                >Ver Meu Trabalho</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+      <div class="container">
+        <p>&copy; 2025 Nathan Silva. Todos os direitos reservados.</p>
+        <p>
+          Desenvolvido com HTML e CSS puros
+          <!-- alooy -->
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio - Nathan Silva</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navegação principal -->
+    <header>
+      <nav class="navbar">
+        <div class="nav-container">
+          <h1 class="logo">Nathan Silva</h1>
+          <ul class="nav-menu">
+            <li><a href="index.html" class="nav-link">Início</a></li>
+            <li><a href="sobre.html" class="nav-link">Sobre Mim</a></li>
+            <li><a href="formacao.html" class="nav-link">Formação</a></li>
+            <li>
+              <a href="portfolio.html" class="nav-link active">Portfólio</a>
+            </li>
+            <li><a href="contato.html" class="nav-link">Contato</a></li>
+          </ul>
+          <div class="hamburger">
+            <span class="bar"></span><span class="bar"></span
+            ><span class="bar"></span>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Cabeçalho da página -->
+      <section class="page-header">
+        <div class="container">
+          <h2>Meu Portfólio</h2>
+          <p>Projetos e trabalhos desenvolvidos durante minha jornada</p>
+        </div>
+      </section>
+
+      <section class="portfolio-content">
+        <div class="container">
+          <!-- Filtros -->
+          <div class="portfolio-filters">
+            <button class="filter-btn active" data-filter="all">Todos</button>
+            <button class="filter-btn" data-filter="web">Sites</button>
+            <button class="filter-btn" data-filter="academic">
+              Acadêmicos
+            </button>
+            <button class="filter-btn" data-filter="personal">Pessoais</button>
+          </div>
+
+          <!-- Grade de projetos -->
+          <div class="portfolio-grid">
+            <!-- Projeto: Jogo da Memória (alooy) -->
+            <div class="portfolio-item alooy-jogo" data-category="web personal">
+              <div class="project-image">
+                <img
+                  src="imgsec/pokena.png"
+                  alt="Jogo da Memória"
+                  style="width: 100%; border-radius: 12px 12px 0 0"
+                />
+                <div class="project-overlay">
+                  <div class="project-links">
+                    <a
+                      href="https://alooybr.github.io/jogo-da-memoria-pokemon/"
+                      class="project-link"
+                      target="_blank"
+                      >Jogar</a
+                    >
+                    <a
+                      href="https://github.com/AlooyBr/jogo-da-memoria-pokemon"
+                      class="project-link"
+                      target="_blank"
+                      >Código</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="project-info">
+                <h3>Jogo da Memória</h3>
+                <p>
+                  Jogo interativo com sistema de pontuação, animações e
+                  dificuldade escalável.
+                </p>
+                <div class="project-tech">
+                  <span class="tech-tag">HTML5</span>
+                  <span class="tech-tag">CSS3</span>
+                  <span class="tech-tag">JavaScript</span>
+                  <span class="tech-tag">Animations</span>
+                </div>
+              </div>
+            </div>
+            <!-- Projeto: Este Portfólio -->
+            <div class="portfolio-item" data-category="web academic">
+              <div class="project-image">
+                <img
+                  src="imgsec/portf.png"
+                  alt="Portfólio"
+                  style="width: 100%; border-radius: 12px 12px 0 0"
+                />
+                <div class="project-overlay">
+                  <div class="project-links">
+                    <a
+                      href="https://nathan-silva-alooy.infinityfree.me"
+                      class="project-link"
+                      target="_blank"
+                    >
+                      Ver Site
+                    </a>
+                    <a
+                      href="nathan-silva-alooy.infinityfree.me"
+                      class="project-link"
+                      target="_blank"
+                    >
+                      Código
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="project-info">
+                <h3>Este Portfólio</h3>
+                <p>
+                  Site criado por Nathan Silva para apresentar projetos e
+                  contatos.
+                </p>
+                <div class="project-tech">
+                  <span class="tech-tag">HTML5</span>
+                  <span class="tech-tag">CSS3</span>
+                  <span class="tech-tag">JavaScript</span>
+                  <span class="tech-tag">Responsive</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Chamada para ação -->
+          <div class="portfolio-cta">
+            <h3>Gostou do que viu?</h3>
+            <p>
+              Estou sempre aberto a novos projetos e oportunidades de
+              colaboração.
+            </p>
+            <a href="contato.html" class="btn btn-primary">Entre em Contato</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+      <div class="container">
+        <p>&copy; 2025 Nathan Silva (Alooy). Todos os direitos reservados.</p>
+        <p>Desenvolvido com HTML e CSS puros</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
